@@ -1,0 +1,26 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Font Selector Demo'
+  ClientHeight = 664
+  ClientWidth = 440
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 408.000000000000000000
+    Size.Height = 209.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 34.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'abcdefghijklmnop'#13#10'ABCDEFGHIJKLMNOP'#13#10'0123456789'
+    TabOrder = 1
+  end
+end

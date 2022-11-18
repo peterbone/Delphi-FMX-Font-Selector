@@ -6,9 +6,11 @@ Created in Delphi 11.2
 - Text input with auto-complete for quick font selection without scrolling through the list
 - Font style used in the list and edit box for font preview
 
-Currently only tested in Windows, but should in theory work on Mac
+Currently only tested in Windows, but should in theory work on Mac. A Windows demo project is included.
 
 
 Current issues:
 
 Some lag when scrolling through the list when a heavy font is reached (e.g. Surfing Capital). This is true of font selectors in many other apps.
+
+![Demo Capture](https://i.imgur.com/kbjTliS.png)
